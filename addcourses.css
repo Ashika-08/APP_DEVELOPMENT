@@ -1,0 +1,75 @@
+.add-courses-main{
+    height: 100vh;
+   display: block;
+   padding-top: 50px;
+   /* padding-bottom: 30px; */
+   align-items: center;
+   justify-content:center;
+   background: url('../images/chess51.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.add-courses-page {
+   display: block;
+   align-items: center;
+   justify-content: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-courses-title {
+    text-align: center;
+    color: #CFB284;
+    margin-bottom: 20px;
+}
+
+.add-courses-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-label {
+    color: #CFB284;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.form-input, .form-textarea {
+    color: #CFB284;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-button {
+    background-color: #CFB284;
+    color: #000080;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #E3D8B7;
+}
+
+.response-message {
+    text-align: center;
+    color: #008000; /* Green color for success message */
+    margin-top: 15px;
+}

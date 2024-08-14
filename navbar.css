@@ -1,0 +1,125 @@
+.navbar {
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-logo {
+    height: 80px;
+    margin-right: auto;
+}
+
+.navbar-toggle {
+    display: none; /* Hidden by default, shown on small screens */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar-toggle .bar {
+    background-color: #000080;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+.blue-bar {
+    background-color: #000080;
+}
+
+/* Regular Menu Styles (For Desktop) */
+.navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    padding: 10px 20px;
+}
+
+.navbar-menu li a {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    color: #000080;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 17px;
+}
+
+.navbar-menu li a:hover {
+    color: #6495ed;
+    text-decoration: underline;
+}
+
+/* Sidebar Styles (For Mobile) */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Initially hidden off-screen to the right */
+    width: 250px;
+    height: 100%;
+    background-color: #ADD8E6;
+    z-index: 10;
+    padding-top: 60px;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar.active {
+    right: 0; /* Slide in the sidebar from the right */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000080;
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px; /* Offset for close button */
+}
+
+.sidebar-menu li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #000080;
+}
+
+.sidebar-menu li a {
+    color: #000080;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu li a:hover {
+    background-color: #6495ed;
+    color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar-toggle {
+        display: flex;
+    }
+
+    .navbar-menu {
+        display: none; /* Hide regular menu on small screens */
+    }
+
+    .sidebar-menu li {
+        text-align: left;
+    }
+}

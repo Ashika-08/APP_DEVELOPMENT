@@ -1,0 +1,18 @@
+.intermediate-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color */
+    text-align: center;
+    background-color: transparent;
+  }
+  .intermediate-container img{
+    width: 100%;
+    height: 80vh;
+    
+  }
+  .price_sec{
+    width: 100%;
+  }
+  

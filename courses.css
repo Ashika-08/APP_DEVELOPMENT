@@ -1,0 +1,128 @@
+.courses-title {
+    font-family: "Merienda", cursive;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #000080;
+    font-weight: 800;
+}
+
+.courses-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    background: url('../../images/course.png') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.courses-scroll {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 50px;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.course-item {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    flex: 1 1 auto;
+    max-width: calc(25% - 40px); /* Default width for larger screens */
+    box-sizing: border-box;
+}
+
+.course-item h3 {
+    color: #000080;
+}
+
+.course-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.course-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.course-item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.course-age {
+    color: #CFB284;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.course-description {
+    font-family: "Tangerine", cursive;
+  font-weight: 700;
+    font-size: 14px;
+    color: #000080;
+    margin-bottom: 10px;
+}
+
+.learn-more-button {
+    background-color: #CFB284;
+    color: #000080;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 15px;
+    align-self: center;
+}
+
+.learn-more-button:hover {
+    background-color: #E3D8B7;
+    transform: scale(1.05);
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1024px) {
+    .course-item {
+        max-width: calc(33.33% - 40px); /* 3 items per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .course-item {
+        max-width: calc(50% - 40px); /* 2 items per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .course-item {
+        max-width: calc(100% - 40px); /* 1 item per row */
+    }
+
+    .courses-title {
+        font-size: 24px;
+    }
+
+    .learn-more-button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
