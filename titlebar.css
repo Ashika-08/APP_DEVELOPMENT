@@ -1,0 +1,54 @@
+.titlebar {
+    background-color: transparent; /* Semi-transparent background */
+    width: 100%;
+    z-index: 2; /* Ensure it appears above the carousel */
+    position: fixed; /* Make the title bar fixed at the top */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+}
+
+.titlebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent; /* Transparent background for ul */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.titlebar li {
+    margin: 0;
+    padding: 0;
+}
+
+.titlebar li a {
+    display: block;
+    color: #000080;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.titlebar li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.5s ease; /* Smooth transition for underline */
+}
+
+.titlebar li a:hover,
+.titlebar li a.active {
+    color: white; /* Change text color to white */
+    transform: scale(1.1); /* Scale up the link */
+}
+
+.titlebar li a:hover::after,
+.titlebar li a.active::after {
+    width: 100%; /* Expand underline to full width */
+}

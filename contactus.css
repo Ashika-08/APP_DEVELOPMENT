@@ -1,0 +1,48 @@
+.kp-contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000080;
+    
+    color: #333;
+    padding: 2rem;
+}
+
+.kp-contact-content {
+    text-align: center;
+    max-width: 600px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kp-contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #0c1b33;
+}
+
+.kp-contact-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.kp-contact-details p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.kp-contact-details a {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.kp-contact-details a:hover {
+    color: #4682b4;
+}
