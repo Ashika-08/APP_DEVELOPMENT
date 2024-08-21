@@ -1,0 +1,373 @@
+{
+  "demo": [
+    {
+      "name": "Ashika ",
+      "countryCode": "IN",
+      "whatsappNumber": "9443965195",
+      "id": 1
+    },
+    {
+      "name": "Ashika",
+      "countryCode": "IN",
+      "whatsappNumber": "9443965195",
+      "id": 2
+    },
+    {
+      "name": "Ashika",
+      "countryCode": "IN",
+      "whatsappNumber": "9443965195",
+      "id": 3
+    },
+    {
+      "name": "Ramya",
+      "countryCode": "IN",
+      "whatsappNumber": "6374500639",
+      "id": 4
+    },
+    {
+      "name": "Ramya",
+      "countryCode": "IN",
+      "whatsappNumber": "6374500639",
+      "id": 5
+    }
+  ],
+  "tournaments": [
+    {
+      "tournamentName": "",
+      "organizerName": "",
+      "participants": [
+        "",
+        "Ashika"
+      ],
+      "id": 1
+    },
+    {
+      "tournamentName": "Bash",
+      "organizerName": "Ash",
+      "participants": [
+        "Ashik"
+      ],
+      "tournamentCode": "",
+      "id": 2
+    },
+    {
+      "tournamentName": "Eight",
+      "organizerName": "Nine",
+      "category": "under-25",
+      "mode": "offline",
+      "time": "morning",
+      "venue": "Sk Hall",
+      "tournamentCode": "H33gSX",
+      "id": 3
+    },
+    {
+      "tournamentName": "ONe",
+      "organizerName": "ABc",
+      "category": "under-10",
+      "mode": "offline",
+      "time": "afternoon",
+      "venue": "Sqaure",
+      "tournamentCode": "DPpHle",
+      "id": 4
+    },
+    {
+      "tournamentName": "Hash",
+      "organizerName": "Hashing",
+      "category": "under-10",
+      "mode": "offline",
+      "time": "evening",
+      "venue": "Sk Hall",
+      "tournamentCode": "i7eMM8",
+      "participantLimit": 0,
+      "participants": [],
+      "id": 5
+    },
+    {
+      "tournamentName": "",
+      "organizerName": "",
+      "category": "",
+      "mode": "online",
+      "time": "",
+      "batchSize": "",
+      "tournamentCode": "0xFJcF",
+      "participantLimit": 0,
+      "participants": [],
+      "id": 6
+    },
+    {
+      "tournamentName": "shoe",
+      "organizerName": "sock",
+      "category": "under-25",
+      "mode": "online",
+      "time": "afternoon",
+      "batchSize": "3",
+      "tournamentCode": "khI0rT",
+      "participantLimit": 6,
+      "participants": [],
+      "id": 7
+    },
+    {
+      "tournamentName": "big hash",
+      "organizerName": "hash one",
+      "category": "under-25",
+      "mode": "offline",
+      "time": "morning",
+      "venue": "Sk hall",
+      "tournamentCode": "SS1lIq",
+      "participantLimit": 0,
+      "participants": [],
+      "id": 8
+    },
+    {
+      "tournamentName": "Bang",
+      "organizerName": "Big",
+      "category": "under-10",
+      "mode": "offline",
+      "time": "evening",
+      "venue": "SK square",
+      "tournamentCode": "woVs3m",
+      "participantLimit": 0,
+      "participants": [],
+      "id": 9
+    },
+    {
+      "tournamentName": "chess",
+      "organizerName": "path",
+      "category": "open",
+      "mode": "online",
+      "time": "afternoon",
+      "batchSize": "2",
+      "tournamentCode": "ki0fvS",
+      "participantLimit": 4,
+      "participants": [],
+      "id": 10
+    },
+    {
+      "tournamentName": "Quick",
+      "organizerName": "look",
+      "category": "under-10",
+      "mode": "offline",
+      "time": "morning",
+      "venue": "Sk hall",
+      "tournamentCode": "6emeap",
+      "participantLimit": 0,
+      "participants": [],
+      "id": 11
+    },
+    {
+      "tournamentName": "Dharshini",
+      "organizerName": "R K",
+      "category": "under-25",
+      "mode": "offline",
+      "time": "afternoon",
+      "venue": "SKCET",
+      "tournamentCode": "Z1vZCL",
+      "participantLimit": 0,
+      "participants": [],
+      "id": 12
+    }
+  ],
+  "join": [
+    {
+      "tournamentCode": "H33gSX",
+      "name": "Ash",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 1
+    },
+    {
+      "tournamentCode": "DPpHle",
+      "name": "ashhhhh",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 2
+    },
+    {
+      "tournamentCode": "khI0rT",
+      "name": "Big boy",
+      "email": "bigboy@gmail.com",
+      "id": 3
+    },
+    {
+      "tournamentCode": "khI0rT",
+      "name": "smallboy",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 4
+    },
+    {
+      "tournamentCode": "khI0rT",
+      "name": "tallboy",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 5
+    },
+    {
+      "tournamentCode": "khI0rT",
+      "name": "shortboy",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 6
+    },
+    {
+      "tournamentCode": "khI0rT",
+      "name": "thinboy",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 7
+    },
+    {
+      "tournamentCode": "khI0rT",
+      "name": "slimboy",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 8
+    },
+    {
+      "tournamentCode": "khI0rT",
+      "name": "smartboy",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 9
+    },
+    {
+      "tournamentCode": "i7eMM8",
+      "name": "Ashika",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 10
+    },
+    {
+      "tournamentCode": "khI0rT",
+      "name": "anu",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 11
+    },
+    {
+      "tournamentCode": "H33gSX",
+      "name": "Ashika",
+      "email": "ashika@gmail.com",
+      "id": 12
+    },
+    {
+      "tournamentCode": "SS1lIq",
+      "name": "Ash",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 13
+    },
+    {
+      "tournamentCode": "H33gSX",
+      "name": "Anu",
+      "email": "727722euai006@skcet.ac.in",
+      "id": 14
+    },
+    {
+      "tournamentCode": "Z1vZCL",
+      "name": "Ashika",
+      "email": "ash@gmail.com",
+      "id": 15
+    }
+  ],
+  "links": [
+    {
+      "link": "http://localhost:3002/videos",
+      "id": 1
+    },
+    {
+      "link": "http://localhost:3002/videos",
+      "id": 2
+    },
+    {
+      "link": "http://localhost:3002/videos",
+      "id": 3
+    },
+    {
+      "link": "https://www.facebook.com/",
+      "id": 4
+    },
+    {
+      "url": "www.google.com",
+      "id": 5
+    },
+    {
+      "url": "https://chatgpt.com/c/f22010a9-22ba-4491-bf33-1d1347917583",
+      "id": 6
+    },
+    {
+      "url": "www.google.com",
+      "id": 7
+    },
+    {
+      "url": "www.google.com",
+      "id": 8
+    }
+  ],
+  "files": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ],
+  "videos": [],
+  "msgs": [
+    {
+      "message": "complete the work assignes",
+      "id": 1
+    },
+    {
+      "message": "hello",
+      "id": 2
+    },
+    {
+      "text": "bye",
+      "id": 3
+    },
+    {
+      "message": "bye",
+      "id": 4
+    },
+    {
+      "message": "goodnight",
+      "id": 5
+    },
+    {
+      "message": "hiii",
+      "id": 6
+    }
+  ],
+  "faq": [],
+  "courses": [
+    {
+      "id": "1",
+      "icon": "/pic/chess10.png",
+      "title": "Beginner",
+      "age": "(5-15 years)",
+      "description": "Join our 6-month journey into the realm of chess with our beginner's course, specially designed to ignite young minds, fostering a love for the game while transforming them into skilled chess players.",
+      "path": "/beg"
+    },
+    {
+      "id": "2",
+      "icon": "/pic/chess11.png",
+      "title": "Intermediate",
+      "age": "(5-15 years)",
+      "description": "Elevate your chess knowledge to tournament-ready levels with our 8-month intermediate course, meticulously crafted to hone strategic thinking and tactical precision, propelling students to become proficient tournament players.",
+      "path": "/inter"
+    },
+    {
+      "id": "3",
+      "icon": "/pic/chess12.png",
+      "title": "Advanced",
+      "age": "(5-15 years)",
+      "description": "Embark on a lifelong chess mastery journey with our advanced course. We're here to guide and inspire you as you continue your passion for chess making you a very strong chess player.",
+      "path": "/adv"
+    },
+    {
+      "id": "4",
+      "icon": "/pic/chess13.png",
+      "title": "1-1 Classes",
+      "age": "Age 5+",
+      "description": "Experience personalized chess growth with our individual lessons. Dive into tailored sessions where one dedicated tutor empowers one student, ensuring focused attention and customized learning for optimal skill development.",
+      "path": "/per"
+    }
+  ],
+  "carousel": [
+    "/pic/carousel9.png",
+    "/pic/carousel10.png",
+    "/pic/carousel11.png",
+    "/pic/carousel12.png",
+    "/pic/carousel13.png"
+  ]
+}

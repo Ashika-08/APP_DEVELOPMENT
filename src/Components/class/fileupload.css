@@ -1,0 +1,31 @@
+/* Style for the hidden file input */
+.upload-file-input {
+    display: none; /* Hide the default file input */
+}
+
+/* Style for the label that acts as the "Choose File" button */
+.upload-file-input-label {
+    background-color: #007bff; /* Blue background for the button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    width: fit-content;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the "Choose File" button */
+.upload-file-input-label:hover {
+    background-color: #000080; /* Darker blue on hover */
+}
+
+/* Style for displaying the selected file name */
+.upload-file-status {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}

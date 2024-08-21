@@ -1,0 +1,12 @@
+.succes-button {
+    background-color: #000080; /* Navy blue background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.succes-button:hover {
+    background-color: #0000ff; /* Lighter blue on hover */
+}

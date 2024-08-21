@@ -1,0 +1,166 @@
+/* Container for the whole signup page */
+.signup-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/chess33.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative; /* Added for absolute positioning of the back button */
+}
+
+/* Container for the signup form */
+.signup-container {
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Signup card styling */
+.signup-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Form styling */
+.signup-form {
+    width: 100%;
+}
+
+/* Form group styling */
+.signup-form-group {
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+.signup-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000080;
+}
+
+/* Input styling */
+.signup-form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+/* Input focus styling */
+.signup-form-group input:focus {
+    border-color: #000080;
+    outline: none;
+}
+
+/* Instructions text styling */
+.instructions {
+    font-size: 0.9em;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+/* Offscreen class for hiding elements */
+.offscreen {
+    display: none;
+}
+
+/* Remember me section styling */
+.remem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Remember me label styling */
+.remem label {
+    display: flex;
+    align-items: center;
+    color: #000080;
+}
+
+/* Checkbox styling */
+.remem input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Submit button styling */
+.submit_button {
+    width: 100%;
+    background-color: #000080;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* Submit button hover effect */
+.submit_button:hover {
+    background-color: #000066;
+}
+
+/* Other apps section styling */
+.othapp {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Other apps button styling */
+.othapp button {
+    background-color: white;
+    border: 1px solid #000080;
+    color: #000080;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+/* Other apps button hover effect */
+.othapp button:hover {
+    background-color: #f7f7f7;
+}
+
+/* Google logo styling */
+.othapp img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+/* Back button styling */
+.signup_back_button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none; /* Ensure no border is applied */
+    box-shadow: none;/* Adjusted font size */
+}
+.signup_back_button img{
+    width: 30px;
+    height: 30px;
+}
+/* Back button hover effect */
+.back_button:hover {
+    background-color: #000066;
+}

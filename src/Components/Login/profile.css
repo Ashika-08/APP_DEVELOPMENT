@@ -1,0 +1,132 @@
+.profile-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../images/chess53.png') center/cover no-repeat;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #000080;
+}
+
+.profile-details {
+    margin-bottom: 20px;
+}
+
+.profile-details p {
+    color: #000080;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.profile-details p strong {
+    display: inline-block;
+    width: 100px;
+    color: #3b6fa4;
+}
+
+.add-details-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-details-button:hover {
+    background-color: #0056b3;
+}
+
+.add-details-button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.add-phone-number {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-phone-number input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-phone-number button {
+    width: auto;
+}
+
+.update-message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: green;
+    text-align: center;
+}
+
+.profile-back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none; /* Ensure no border is applied */
+    box-shadow: none; /* Remove any box shadow */
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.profile-submit-button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.admin-dashboard-button {
+    background-color: #CFB284;
+    color: #000080;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 15px;
+    margin-right: 10px;
+    
+}
+.admin-dashboard-button:hover {
+    background-color: #E3D8B7;
+    transform: scale(1.05);
+}

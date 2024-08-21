@@ -1,0 +1,87 @@
+.contact-form-page-unique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    color: #ccc;
+    background: #0056b3;
+}
+
+.contact-form-title-unique {
+    padding: 20px;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.contact-form-subtitle-unique {
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.contact-form-unique {
+    
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group-unique {
+    margin-bottom: 15px;
+}
+
+.form-label-unique {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-input-unique,
+.form-textarea-unique {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.form-textarea-unique {
+    resize: vertical;
+    height: 100px;
+}
+
+.form-submit-button-unique {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.form-submit-button-unique:hover {
+    background-color: #0056b3;
+}
+
+.form-submit-button-unique:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.submit-message-unique {
+    margin-top: 20px;
+    font-size: 1em;
+    color: green;
+    text-align: center;
+}

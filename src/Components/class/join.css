@@ -1,0 +1,74 @@
+.join-tournament-page{
+  background: url('../images/chess38.png') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-tournament-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  /*  */
+  background: url('../images/chess37.png') center/cover no-repeat;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #000080;
+  
+}
+
+.join-tournament-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.join-tournament-form select,
+.join-tournament-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #000080;
+}
+
+.join-tournament-form button {
+  padding: 10px;
+  background-color: #6495ed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.join-tournament-form button:hover {
+  background-color: #000080;
+}
+
+.tournament-details {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #000080;
+}
+.join_back_button{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  background-color: #67a7dc;
+  border: none; /* Ensure no border is applied */
+  box-shadow: none;/* Adjusted font size */
+}
+.join_back_button img{
+  width: 30px;
+  height: 30px;
+}
+/* Back button hover effect */
+.join_back_button:hover {
+  background-color: #000066;
+}

@@ -1,0 +1,96 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Container */
+.kp-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000e3e;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    overflow-x: hidden;
+}
+
+/* Navbar Logo */
+.kp-navbar-logo img {
+    height: 50px;
+}
+
+/* Navbar Links */
+.kp-navbar-links {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.kp-navbar-button{
+    background-color: #1e90ff;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.kp-navbar-links li a {
+    /* margin-right: 50px; */
+    /* padding-right: 50px; */
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.kp-navbar-links li a:hover {
+    color: #1e90ff; /* Dodger blue on hover */
+}
+
+/* Responsive Menu Icon */
+.kp-menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .kp-navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #000080;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .kp-navbar-links.active {
+        display: flex;
+    }
+
+    .kp-menu-icon {
+        display: block;
+    }
+}

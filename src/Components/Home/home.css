@@ -1,0 +1,51 @@
+.home-page {
+    width: auto;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 2; /* Ensure it appears above the carousel images */
+    color: white; /* White text color for better visibility */
+}
+
+
+
+.home_body {
+    padding: 20px;
+    text-align: center;
+}
+
+.home_container {
+    margin: 20px 0;
+}
+
+.home_footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.home-page::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.home-page {
+    -ms-overflow-style: none; /* Hides scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hides scrollbar for Firefox */
+}

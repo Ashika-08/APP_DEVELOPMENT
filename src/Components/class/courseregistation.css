@@ -1,0 +1,97 @@
+.course-body{
+  background: url('../images/chess47.png') center/cover no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000080;
+}
+.course-registration-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .course-registration-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .course-registration-form {
+    width: 100%;
+    color: #000080;
+
+  }
+  
+  .course-registration-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .course-registration-form-group {
+    margin-bottom: 15px;
+    color: #000080;
+  }
+  
+  .course-registration-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000080;
+  }
+  
+  .course-registration-input,
+  .course-registration-select {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000080;
+  }
+  
+  .course-registration-radio-group,
+  .course-registration-checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+    color: #000080;
+  }
+  
+  .course-registration-radio-group label,
+  .course-registration-checkbox-group label {
+    display: block;
+    margin-right: 10px;
+  }
+  
+  .course-registration-checkbox,
+  .course-registration-radio {
+    margin-right: 5px;
+  }
+  
+  .course-registration-submit-btn {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .course-registration-submit-btn:hover {
+    background-color: #007bff;
+  }
+  

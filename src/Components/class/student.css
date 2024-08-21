@@ -1,0 +1,73 @@
+/* Container for the student resources page */
+.student-page{
+  background: url('../images/chess46.png') center/cover no-repeat;
+  color: #000080;
+  height: 100vh;
+  
+}
+.student-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Style for headings */
+  .student-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .student-container h3 {
+    border-bottom: 2px solid #000080;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #000080;
+  }
+  
+  /* Section for resources */
+  .resource-section {
+    margin-bottom: 30px;
+  }
+  
+  /* Style for list items */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for video player */
+  video {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .message-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .message-time {
+    font-size: 0.9em;
+    color: #555;
+    margin-left: auto;
+  }

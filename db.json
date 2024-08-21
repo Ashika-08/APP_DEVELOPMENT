@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "Username": "Atimanyu",
+      "Email": "atimanyu@gmail.com",
+      "Password": "Atimanyu@",
+      "ConfirmPassword": "Atimanyu@",
+      "id": 5,
+      "role": "student",
+      "phone": "7896541230"
+    },
+    {
+      "Username": "ashhh",
+      "Email": "ash@gmail.com",
+      "Password": "Ash@123",
+      "ConfirmPassword": "Ash@123",
+      "id": 6
+    },
+    {
+      "Username": "Ashika",
+      "Email": "ashika@knightspath.in",
+      "Password": "Ashika@123",
+      "ConfirmPassword": "Ashika@123",
+      "id": 8
+    },
+    {
+      "Username": "Ashika",
+      "Email": "727722euai006@skcet.ac.in",
+      "Password": "Ashika@123",
+      "ConfirmPassword": "Ashika@123",
+      "id": 9
+    },
+    {
+      "Username": "Thanveer",
+      "Email": "Thanveer@gmail.com",
+      "Password": "Thanveer@",
+      "ConfirmPassword": "Thanveer@",
+      "id": 10
+    },
+    {
+      "Username": "Thanveer",
+      "Email": "thaveer@knightspath.in",
+      "Password": "Thanveer@",
+      "ConfirmPassword": "Thanveer@",
+      "id": 11
+    },
+    {
+      "Username": "Win",
+      "Email": "win@gmail.com",
+      "Password": "Win@1234",
+      "ConfirmPassword": "Win@1234",
+      "id": 12
+    },
+    {
+      "Username": "Barbie",
+      "Email": "barbie@gmail.com",
+      "Password": "Barbie@1198",
+      "ConfirmPassword": "Barbie@1198",
+      "id": 13
+    },
+    {
+      "Username": "ken",
+      "Email": "ken@gmail.com",
+      "Password": "Ken@1234",
+      "ConfirmPassword": "Ken@1234",
+      "id": 14
+    }
+  ]
+}

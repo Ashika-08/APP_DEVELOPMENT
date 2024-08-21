@@ -1,0 +1,44 @@
+.why-choose-us {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.why-choose-us h2 {
+    font-size: 2.5rem;
+    color: #00274d;
+    margin-bottom: 30px;
+}
+
+.why-choose-us-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.why-choose-us-benefit {
+    width: 250px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.why-choose-us-benefit img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.why-choose-us-benefit h3 {
+    font-size: 1.5rem;
+    color: #00274d;
+    margin-bottom: 15px;
+}
+
+.why-choose-us-benefit p {
+    font-size: 1rem;
+    color: #555;
+}

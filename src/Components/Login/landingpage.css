@@ -1,0 +1,116 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Landing Page Container */
+.kp-landing-page {
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Main Content */
+.kp-landing-content {
+    margin-bottom: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    /* padding: 2rem; */
+    background: url('../images/chess60.png') no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    margin-top: 80px; /* Space for the navbar */
+}
+
+.kp-landing-title {
+    padding-top: 60px;
+    padding-bottom: 3px;
+    padding-left: 100px;
+    font-size: 2rem;
+    /* margin-bottom: 1rem; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.kp-landing-subtitle {
+    font-size: 1.5rem;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    padding-left: 150px;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.kp-landing-button {
+    width: fit-content;
+    font-size: 1.2rem;
+    margin-left: 300px;
+    margin-bottom: 80px;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.kp-landing-button:hover {
+    background-color: #4682b4;
+}
+
+.kp-landing-description {
+    margin-top: 0;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+    padding-left: 100px;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 700px;
+}
+
+.kp-landing-invitation {
+    margin-top: 0;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+    padding-left: 100px;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 700px;
+}
+.kp-components{
+    margin-top:25px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .kp-landing-content {
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .kp-landing-title {
+        font-size: 2rem;
+    }
+
+    .kp-landing-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .kp-landing-button {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+}

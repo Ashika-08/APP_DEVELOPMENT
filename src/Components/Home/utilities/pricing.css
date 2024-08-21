@@ -1,0 +1,93 @@
+.pricing-section {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    background: url('../../images/pricing.png') no-repeat center center;
+    background-size: contain ;
+    margin: 30px;
+    text-align: center;
+    margin-top: 30px;
+    
+  }
+  
+  .pricing-title {
+    
+    font-family: "DotGothic16", sans-serif;
+    color: #000080;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-plans {
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .plan {
+    background-color: #FFFDE7;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plan-title {
+    color: #000080;
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .plan-type {
+    color: #3B9EBF;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .plan-features {
+    color: #3B9EBF;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .plan-features li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan-pricing {
+    margin-bottom: 1rem;
+  }
+  
+  .discounted-price {
+    font-size: 1.5rem;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 0.5rem;
+  }
+  
+  .savings {
+    color: green;
+    margin-top: 0.5rem;
+  }
+  
+  .demo-button, .enroll-button {
+    background-color: #000080;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .demo-button:hover, .enroll-button:hover {
+    background-color: #3B9EBF;
+  }
+  
