@@ -204,7 +204,6 @@ const Signup = () => {
     confirmPassword: ''
   });
 
-  const [pwdFocus, setPwdFocus] = useState(false);
   const [matchPwd, setMatchPwd] = useState('');
   const [matchFocus, setMatchFocus] = useState(false);
   const [validMatch, setValidMatch] = useState(true);
@@ -213,16 +212,6 @@ const Signup = () => {
   const passwordValidationMsg = validatePassword(formData.password);
   const confirmPwdValidationMsg = validateConfirmPassword(formData.password, matchPwd);
   const navigate = useNavigate();
-
-  const validateMatch = () => {
-    if (!matchPwd) {
-      setValidMatch(true);
-    } else if (formData.password === matchPwd) {
-      setValidMatch(true);
-    } else {
-      setValidMatch(false);
-    }
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -321,11 +310,11 @@ const Signup = () => {
                 name="password"
                 onChange={handleInputChange}
                 value={formData.password}
-                onFocus={() => setPwdFocus(true)}
-                onBlur={() => setPwdFocus(false)}
+                onFocus={() => setMatchFocus(true)}
+                onBlur={() => setMatchFocus(false)}
                 required
               />
-              <p className={pwdFocus && passwordValidationMsg ? 'instructions' : 'offscreen'}>
+              <p className={matchFocus && passwordValidationMsg ? 'instructions' : 'offscreen'}>
                 <span className="material-symbols-outlined">
                   info
                 </span>

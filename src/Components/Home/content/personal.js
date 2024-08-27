@@ -24,7 +24,7 @@ const pageTransition = {
     variants={pageVariants}
     transition={pageTransition}>
       <div className='title_bar'><TitleBar/></div>
-      <img src='/pic/personal.png'></img>
+      <img src='/pic/personal.png' alt="description"></img>
       <FeaturesSection/>
       <div className='price_sec'>
       <Pricing/>

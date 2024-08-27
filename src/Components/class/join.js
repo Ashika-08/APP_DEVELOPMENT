@@ -56,9 +56,7 @@ const JoinTournament = () => {
     }
   };
 
-  const handleSwitchToConduct = () => {
-    navigate('/con');
-  };
+ 
   const pageVariants = {
     initial: { opacity: 0, y: '100vh' },
     animate: { opacity: 1, y: 0 },
